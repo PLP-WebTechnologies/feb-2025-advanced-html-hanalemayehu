@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 elements and Forms</title>
+</head>
+<body>
+    <h2>Top Ethiopian Universitys</h2>
+    <ol>
+        <li>Addis Ababa University</li>
+        <li>Jimma University</li>
+        <li>Bahir Dar University</li>
+        <li>Hawasa University</li>
+        <li>University of Gonder</li>
+        <li>Haramaya University</li>
+        <li>Mekele University</li>
+        <li>Arba Minch University</li>
+        <li>Adama Science and Technology University</li>
+        <li>Addis Ababa Science and Technology University</li>
+    </ol>
+    <div>
+        <h2>Images of Gonder fasiledes</h2>
+        <img src="images/2-fasil-ghebbi.jpg" alt="fasiledes ghebbi">
+        <img src="images/Fasiledes.jpg" alt="fasiledes">
+        <h2>Images of Lalibela church</h2>
+        <img src="images/lallibela.jpg" alt="church of lalibela" height="400" width="600">
+        <img src="images/rock-hewn-churches-.jpg" alt="rock hewan church">
+        <h2>Image of lake Tana</h2>
+        <img src="images/lake_Tana.jpg" alt="lake tana">
+    </div>
+    <h2> Univeristies in Ethiopia</h2>
+    <table border="2">
+        <thead>
+            <tr>
+               <th>Name</th>
+               <th>Address</th>
+               <th>Mobile</th> 
+               <th>Emails</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bahir Dar University</td>
+                <td>Bahir Dar, Ethiopia</td>
+                <td>+251 583 20 6059</td>
+                <td>bduinfo@bdu.edu.et</td>
+            </tr>
+            <tr>
+                <td>Addis Ababa University</td>
+                <td>Addis Ababa,Ethiopia</td>
+                <td>+251-111-233828</td>
+                <td>gender@aau.edu.et</td>
+            </tr>
+            <tr>
+                <td>Mekelle University</td>
+                <td>Makelle, Ethiopia</td>
+                <td>+251 344 40 40 05</td>
+                <td>ccia@mu.edu.et</td>
+            </tr>
+            <tr>
+                <td>Jimma University</td>
+                <td>Jimma, University</td>
+                <td>+251471112202</td>
+                <td>ero@ju.edu.et</td>
+            </tr>
+            <tr>
+                <td>Hawasa University</td>
+                <td>Hawasa, Ethiopia</td>
+                <td>+251 46 887 1511</td>
+                <td>ccmd@hu.edu.et</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Registration Form</h2>
+    <form action="" method="">
+        <label for="Fname">First Name:</label>
+        <input type="text" id="Fname" name="Fname" placeholder="* First Name" required><br><br>
+
+        <label for="Mname">Middle Name:</label>
+        <input type="text" id="Mname" name="Mname" placeholder="* Middle Name" required><br><br>
+
+        
+        <label for="Lname">Last Name:</label>
+        <input type="text" id="Lname" name="Lname" placeholder="* Last Name" required><br><br>
+
+        <label for="gender"></label>
+        <input type="radio" id="gender" name="gender" value="female">Female
+        <input type="radio" id="gender" name="gender" value="male">Male<br><br>
+
+
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" placeholder="* 
+        password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
+
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email" placeholder="*example@example.com" required><br><br>
+
+        <label for="faculity">Faculity</label>
+            <input type="checkbox" name="faculity" value="health">Health
+            <input type="checkbox" name="faculity" value="computing">Computing
+            <input type="checkbox" name="faculity" value="engineering">Engineering
+            <input type="checkbox" name="faculity" value="fashion-design">Fashion-Design
+            <input type="checkbox" name="faculity" value="other-science">Other-Science<br><br>
+
+            <label for="department">Departments</label>
+            <select form="department" id="department">
+                <option >--------select departments------</option>
+                <option value="Information Technology">IT</option>
+                <option value="Computer Science">CS</option>
+                <option value="Software Engineering">SW</option>
+                <option value="Information Science">IS</option>
+                <option value="Cyber Security">Cyber</option>
+                <option value="medicine">medicine</option>
+                <option value="pharmacy">pharmacy</option>
+                <option value="nursing">nursing</option>
+                <option value="midwifery">midwifery</option>
+                <option value="chemical engineering">chemical</option>
+                <option value="mechanical engineering">mechanical</option>
+                <option value="electrical engineering">electrical</option>
+                <option value="civil engineering">Civil</option>
+                <option value="fashion design">fashion</option>
+                <option value="visual art">art</option>
+                <option value="biotechnology">biotechnology</option>
+                <option value="agriculture">agriculture</option>
+                <option value="agro economics">agro economics</option>
+                <option value="Information Technology Bed">ITBed</option>
+            </select><br><br>
+
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option>------Select your best University-----</option>
+                <option value="Addis Ababa University">Addis Ababa University</option>
+                <option value="Jimma University">Jimma University</option>
+                <option value="Bahir Dar University">Bahir Dar University</option>
+                <option value="Hawasa University">Hawasa University</option>
+                <option value="University of Gonder">University of Gonder</option>
+                <option value="Haramaya University">Haramaya University</option>
+                <option value="Mekele University">Mekele University</option>
+                <option value="Arba Minch University">Arba Minch University</option>
+                <option value="Adama Science and Technology University">Adama Science and Technology University</option>
+                <option value="Addis Ababa Science and Technology University">Addis Ababa Science and Technology University</option>
+            </select><br><br>
+            <label for="w3review">Describe your self</label>
+            <textarea id="description" name="description" rows="6" cols="50">
+            </textarea><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" value="2025-03-19" /><br><br>
+
+        <input type="submit" class="submitButton" 
+        id="submitButton" value="Submit">
+        <input type="reset" class="resetButton" 
+        id="resetButton" value="Reset">
+    </form>
+</body>
+</html>
